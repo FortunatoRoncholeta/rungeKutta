@@ -2,8 +2,13 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Previsão de crescimento de bactérias</title>
+
     <!--Biblioteca ultilizada para plotar o grafico-->
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="estilo.css">
 </head>
@@ -24,16 +29,18 @@
             <input type="number" name="" id="pop" placeholder="densidade populacional" required>
         </div>
         <div>
-            <input type="number" name="" id="ini" placeholder="tempo inicial" required>
+            <input type="number" name="" id="ini" placeholder="tempo inicial (dias)" required>
         </div>
         <div>
-            <input type="number" name="" id="fim" placeholder="tempo final" required>
+            <input type="number" name="" id="fim" placeholder="tempo final (dias)" required>
         </div>
         <div>
-            <input type="number" name="" id="passo" placeholder="tamnaho do passo" required>
+            <input type="number" name="" id="passo" placeholder="intervalo" required>
         </div>
         <div>
             <button id="botao" onclick="calcularCrescimento()">Calcular</button>
+            <button id="botaolimpar" onclick="limpar()">Limpar</button>
+
         </div>
 
 

@@ -43,3 +43,18 @@ input{
 #botao:hover{
     background-color: rgb(142, 242, 111);
 }
+
+
+
+#botaolimpar{
+
+    height: 40px;
+    width: 120px;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0px;
+    border-radius: 5px;
+}
+#botaolimpar:hover{
+    background-color: rgb(242, 118, 111);
+}
