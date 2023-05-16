@@ -34,6 +34,10 @@ input{
 
 }
 
+footer{
+    text-align: center;
+    font-size: 1.5em;
+}
 #botao{
 
     height: 40px;
